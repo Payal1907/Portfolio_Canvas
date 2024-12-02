@@ -1,0 +1,98 @@
+/* Import Google Font for better typography */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+/* Set the default font family to Montserrat */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Navigation menu styling */
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 1em 0;
+    background-color: #1f1f1f;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ff6347; /* Tomato color for a softer, elegant tone */
+    font-weight: bold;
+    font-size: 1.2em; /* Increased font size for better readability */
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ff4500; /* Darker shade of tomato color for hover effect */
+}
+
+/* Main section styling */
+main {
+    text-align: center;
+    padding: 2em;
+    flex-grow: 1; /* Allow the main content to take up remaining space */
+}
+
+/* Social links styling */
+.social-links a {
+    margin: 0 1em;
+    text-decoration: none;
+    color: #ff6347; /* Tomato color for social links */
+    font-size: 1.5em;
+    font-weight: 600; /* Make the font bold for emphasis */
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #ff4500; /* Darker tomato shade on hover */
+}
+
+/* Styling for the photo collage section */
+.photo-collage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: #1c1c1c;
+    border-top: 2px solid #444;
+}
+
+/* Styling for the images in the collage */
+.photo-collage img {
+    width: 120px; /* Increased size for larger photos */
+    height: 120px; /* Keeps square dimensions */
+    object-fit: cover; /* Ensure images fit properly */
+    border-radius: 10px; /* Smoother corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for a modern look */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photo-collage img:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5); /* Stronger shadow effect on hover */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #1f1f1f;
+    font-size: 0.8em; /* Smaller font size for the footer */
+    color: #aaa; /* Lighter color for footer text */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
